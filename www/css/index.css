@@ -1,0 +1,163 @@
+body
+{
+	width:100%;
+	background-color:#fea210;
+	font-family:Helvetica;
+	margin-top:1em;
+	margin-bottom:0;
+	margin-right:0;
+	margin-left:0;
+}
+
+#navigationBar 
+{
+	display:inline-block;
+	width:50%;
+	height:80%;
+}
+
+#topBar
+{
+	width:100%;
+	height:100px;
+	text-align:center;
+	background-color:#FFF;
+	z-index:1;
+}
+
+.topBarElement
+{
+	display:inline-block;
+	vertical-align:top;
+	height:100%;
+}
+
+.navigationButton
+{
+	color:#a9a5a1;
+	line-height: 120px;
+	width:100%;
+	background-color:#FFF;
+}
+
+#logo
+{
+	position:relative;
+	background-image:url("../images/logo.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left bottom;
+}
+
+#mobileNavigationButton
+{
+	position:relative;
+	background-image:url("../images/dropdown.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	height:100px;
+}
+
+#heroBar
+{
+	height:400px;
+	clear:both;
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	width:100%;
+	z-index:-1;
+}
+.heroText
+{
+	color:#FFF;
+	height:15%;
+	width:100%;
+	background-color:#fea210;
+	position: absolute;
+	bottom: 0px;
+	font-size:2.0em;
+	font-size:4vw;
+	padding-top:20px;
+	padding-bottom:20px;
+	overflow:hidden;
+}
+
+.textBlock {
+   display: table;
+   width: 100%;
+}
+.textBlockInner {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+
+#content
+{
+	width:100%;
+	background-color:#FFF;
+	text-align:center;
+	overflow:hidden;
+}
+
+.contentColumn
+{
+	margin:1%;
+	height:325px;
+	display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+	border-bottom-width:20px;
+	border-bottom-style:solid;
+}
+
+.contentColumnOdd
+{
+	background-color:#ebe4d9;
+	border-bottom-color:#ebe4d9;
+}
+.contentColumnEven
+{
+	background-color:#FFF;
+	border-bottom-color:#FFF;
+}
+
+.columnImage
+{
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	height:45%;
+}
+
+.columnTitle
+{
+	font-size:2.0em;
+	padding:10px;
+	color: #74716c;
+}
+
+.columnText
+{
+	font-size:1.0em;
+	padding-left:10px;
+	padding-right:10px;
+	color:#000;
+}
+
+#footer
+{
+	width:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color:#FFF;
+}
+
+#footerContent
+{
+	padding-left:3%;
+}
